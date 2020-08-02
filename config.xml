@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://lorenzolerate.com/ExerciseTimer" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="iH0zkE89wF.ExerciseTimer" package="iH0zkE89wF" required_version="4.0"/>
+    <author email="lorenzolerate@gmail.com">Lorenzo Lerate</author>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>Exercise Timer</name>
+    <tizen:privilege name="http://tizen.org/privilege/mediacapture"/>
+    <tizen:privilege name="http://tizen.org/privilege/volume.set"/>
+    <tizen:privilege name="http://tizen.org/privilege/power"/>
+    <tizen:profile name="wearable"/>
+</widget>

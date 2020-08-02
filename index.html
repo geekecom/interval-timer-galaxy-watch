@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="description" content="Interval Timer" />
+<script src="lib/jquery.min.js"></script>
+<title>Interval Timer</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+	<div class="wrapper-sticky-footer">
+		<div>
+			<header>
+				<h1>Interval Timer</h1>
+			</header>
+		</div>
+		<div>
+			<table id="parameters-table">
+				<tr>
+					<td>
+						<table class="parameter-tune-table">
+							<tr>
+								<td colspan="3">Work</td>
+							</tr>
+							<tr>
+								<td><a id="work-decrease-button" href="#"
+									class="changeParamValueButton"><img
+										src="img/arrow-left.png"></a></td>
+								<td><span id="work-value">#</span></td>
+								<td><a id="work-increase-button" href="#"
+									class="changeParamValueButton"><img
+										src="img/arrow-right.png"></a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table class="parameter-tune-table">
+							<tr>
+								<td colspan="3">Rest</td>
+							</tr>
+							<tr>
+								<td><a id="rest-decrease-button" href="#"
+									class="changeParamValueButton"><img
+										src="img/arrow-left.png"></a></td>
+								<td><span id="rest-value">#</span></td>
+								<td><a id="rest-increase-button" href="#"
+									class="changeParamValueButton"><img
+										src="img/arrow-right.png"></a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table class="parameter-tune-table">
+							<tr>
+								<td colspan="3">Sets</td>
+							</tr>
+							<tr>
+								<td><a id="sets-decrease-button" href="#"
+									class="changeParamValueButton"><img
+										src="img/arrow-left.png"></a></td>
+								<td><span id="sets-value">#</span></td>
+								<td><a id="sets-increase-button" href="#"
+									class="changeParamValueButton"><img
+										src="img/arrow-right.png"></a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table class="parameter-tune-table">
+							<tr>
+								<td colspan="3">Pause</td>
+							</tr>
+							<tr>
+								<td><a id="pause-decrease-button" href="#"
+									class="changeParamValueButton"><img
+										src="img/arrow-left.png"></a></td>
+								<td><span id="pause-value">#</span></td>
+								<td><a id="pause-increase-button" href="#"
+									class="changeParamValueButton"><img
+										src="img/arrow-right.png"></a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table class="parameter-tune-table">
+							<tr>
+								<td colspan="3">Cycles</td>
+							</tr>
+							<tr>
+								<td><a id="cycles-decrease-button" href="#"
+									class="changeParamValueButton"><img
+										src="img/arrow-left.png"></a></td>
+								<td><span id="cycles-value">#</span></td>
+								<td><a id="cycles-increase-button" href="#"
+									class="changeParamValueButton"><img
+										src="img/arrow-right.png"></a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td><a href="#" class="options-button"
+						onclick="$('#go-to-options-form').submit();">Options</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="footer">
+		<footer>
+			<a id="start-button" href="#"
+				onclick="$('#go-to-count-form').submit();"> Start </a>
+		</footer>
+		<form id="go-to-count-form" action="count.html"></form>
+		<form id="go-to-options-form" action="options.html"></form>
+	</div>
+
+</body>
+
+<script src="js/main.js"></script>
+
+</html>

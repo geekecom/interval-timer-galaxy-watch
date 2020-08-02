@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="description" content="Interval Timer" />
+<script src="lib/jquery.min.js"></script>
+<title>Interval Timer</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+	<div class="wrapper-sticky-footer">
+		<div>
+			<header>
+				<h1 id="count-timer-header">Interval Timer</h1>
+			</header>
+		</div>
+		<div class="centered">
+			<img id="pause-icon" src="img/pause.png" /> <span id="timer">#</span>
+			<h2 id="sets-count">
+				Sets: <span id="current-set">1</span> / <span id="total-sets"></span>
+			</h2>
+			<h2 id="cycles-count">
+				Cycles: <span id="current-cycle">1</span> / <span id="total-cycles"></span>
+			</h2>
+		</div>
+	</div>
+	<div class="footer" id="count-footer">
+		<footer>
+			<a id="stop-button" href="#"> Stop </a>
+		</footer>
+	</div>
+
+</body>
+
+<script src="js/count.js"></script>
+
+</html>
